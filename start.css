@@ -1,0 +1,65 @@
+.header{ 
+position: absolute;
+width: 1440px;
+height: 140px;
+left: 0px;
+top: 0px;
+
+/* white */
+background: #FFFFFF;
+
+    /* margin: auto;  헤더 전체를 가운데 정렬 */
+
+    /*display:flex; 가로로 일렬 정렬
+    justify-content: center;
+    align-items: center;*/
+}
+
+.icon{
+    position: absolute;
+    width: 50px;
+    height: 49.75px;
+    left: 240px;
+    top: 45px;
+    background: url(./png/Do-IT_logo.png);
+}
+
+.title{
+    position: absolute;
+    width: 69px;
+    height: 45px;
+    left: 300px;
+    top: 46px;
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 45px;
+    /* identical to box height, or 180% */
+
+
+    /* black */
+    color: #2C3441;
+}
+
+
+.user{
+    position: absolute;  /*절대적 위치*/
+    width: 50px;
+    height: 49.75px;
+    left: 1150px;
+    top: 45px;
+
+    background: url(./png/account_icon.png);
+}
+
+.image_slide{
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 140px;
+
+background: url(./png/image.png), #F2F2F2;
+}
