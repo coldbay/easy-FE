@@ -63,3 +63,19 @@ background: #FFFFFF;
 
 background: url(./png/image.png), #F2F2F2;
 }
+
+.slide_button{
+    position: absolute;
+    width: auto;
+    height: 100px;
+
+    
+    left: 500px;
+    top: 500px;
+
+
+    background: url(./png/Ellipse_3.png);
+    opacity: 0.4; /* 투명도 0~1 */
+
+    
+}
