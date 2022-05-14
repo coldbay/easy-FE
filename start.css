@@ -54,6 +54,8 @@ background: #FFFFFF;
     background: url(./png/account_icon.png);
 }
 
+/*image_slide*/
+
 .image_slide{
     position: absolute;
     width: 1440px;
@@ -66,16 +68,95 @@ background: url(./png/image.png), #F2F2F2;
 
 .slide_button{
     position: absolute;
-    width: auto;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 
-    
-    left: 500px;
-    top: 500px;
 
 
     background: url(./png/Ellipse_3.png);
-    opacity: 0.4; /* 투명도 0~1 */
+    background-size: contain;
+    opacity: 0.8; /* 투명도 0~1 */
+}
+.preview_position{
+    left: 100px;
+    top: 300px; /*부모 기준*/
+}
+.next_position{
+    left: 1260px; /*1440-100-80*/
+    top: 300px; /*부모 기준*/
+}
 
-    
+
+.signal{
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    left:28px;
+    top:20px;
+
+    background: url(./png/to_left.png);
+    background-size: cover;
+}
+
+.rotate{
+    left:32px;
+    transform: rotate(-180deg);
+}
+
+/*notice 태그*/
+
+.notice{
+    position: absolute;
+    width: 1440px;
+    height: 355px;
+    left: 0px;
+    top: 740px;
+}
+
+.notice_text{
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    left: 240px;
+    top: 10px;
+
+    /* subtitle */
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 800; /*굵기*/
+    font-size: 25px;
+    line-height: 45px;
+    /* identical to box height, or 180% */
+
+    color: #000000;
+}
+
+.more_text{
+    position: absolute;
+    width: 62px;
+    height: 27px;
+    left: 1146px;
+    top: 18px;
+
+    /* main */
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+
+    color: #000000;
+}
+
+.notice_box{
+    position: absolute;
+    width: 1440px;
+    height: 290px;
+    left: 0px;
+    top: 65px;
+
+    /* light_gray */
+
+    background: #F3F6F8;
 }
