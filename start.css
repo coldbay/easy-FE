@@ -160,3 +160,75 @@ background: url(./png/image.png), #F2F2F2;
 
     background: #F3F6F8;
 }
+
+.small_box{
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    top: 40px;
+
+    background: #FFFFFF;
+}
+
+.sb_1{
+    left:240px;
+}
+
+.sb_2{
+    left:490px;
+}
+
+.sb_3{
+    left: 740px;
+}
+
+.sb_4{
+    left: 990px;
+}
+
+
+.sb_title{
+    position: absolute;
+    
+    left: 9.52%;
+    right: 11.9%;
+    top: 9.52%;
+    bottom: 59.52%;
+
+    /* subheading */
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 65px;
+    /* or 180% */
+
+
+    /* black */
+
+    color: #2C3441;
+}
+
+.sb_date{
+    position: absolute;
+
+    left: 9.52%;
+    right: 57.14%;
+    top: 77.62%;
+    bottom: 9.52%;
+
+    /* main */
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+
+
+    /* gray */
+
+    color: #BAC0C1;
+}
