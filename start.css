@@ -232,3 +232,130 @@ background: url(./png/image.png), #F2F2F2;
 
     color: #BAC0C1;
 }
+
+.detailed_notice{
+    position: absolute;
+    width: 960px;
+    height: 566px;
+    left: 240px;
+    top: 1495px;
+}
+
+.dn_box{
+    position: absolute;
+    width: 460px;
+    height: 233px;
+}
+
+.dn_2{
+    left: 500px;
+}
+
+.dn_3{
+    top:333px;
+}
+
+.dn_4{
+    left: 500px;
+    top:333px;
+}
+
+.dn_title{
+position: absolute;
+
+/* subtitle */
+right: 36.87%;
+bottom: 80.69%;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 45px;
+/* identical to box height, or 180% */
+
+
+/* black */
+
+color: #2C3441;
+}
+
+.dn_more{
+position: absolute;
+left: 79.35%;
+right: 2.62%;
+top: 7.73%;
+bottom: 80.69%;
+
+/* main */
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+/* identical to box height, or 180% */
+
+text-align: right;
+
+/* black */
+
+color: #2C3441;
+}
+
+.dn_line{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 19.31%;
+    bottom: 80.69%;
+
+    /* black */
+
+    border: 1px solid #2C3441;
+}
+
+.dn_notice_title{
+    position: absolute;
+    left: 0%;
+    right: 22.28%;
+    top: 27.9%;
+    bottom: 60.52%;
+
+    /* main */
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+
+
+    /* black */
+
+    color: #2C3441;
+}
+
+.dn_notice_date{
+    position: absolute;
+    left: 81.85%;
+    right: 0.11%;
+    top: 27.9%;
+    bottom: 60.52%;
+
+    /* main */
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+
+    text-align: right;
+
+    /* gray */
+
+    color: #BAC0C1;
+}
