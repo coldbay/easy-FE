@@ -318,9 +318,7 @@ color: #2C3441;
 .dn_notice_title{
     position: absolute;
     left: 0%;
-    right: 22.28%;
     top: 27.9%;
-    bottom: 60.52%;
 
     /* main */
 
@@ -339,10 +337,8 @@ color: #2C3441;
 
 .dn_notice_date{
     position: absolute;
-    left: 81.85%;
     right: 0.11%;
     top: 27.9%;
-    bottom: 60.52%;
 
     /* main */
 
@@ -359,3 +355,106 @@ color: #2C3441;
 
     color: #BAC0C1;
 }
+
+.dn_n2{
+    top: 48.07%;
+}
+
+.dn_n3{
+    top: 68.24%;
+}
+
+.dn_n4{
+    top: 88.41%;
+}
+
+
+/* 백준랭킹*/
+
+.rank_title{
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    left: 240px;
+    top: 2261px;
+
+    /* subtitle */
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    /* identical to box height, or 180% */
+
+
+    color: #000000;
+}
+
+.rank_full{
+    /* Rectangle 14 */
+
+
+    position: absolute;
+    width: 1440px;
+    height: 510px;
+    left: 0px;
+    top: 2326px;
+
+    /* light_gray */
+
+    background: #F3F6F8;
+}
+
+.rank_box{
+    position: absolute;
+    left: 240px;
+    top: 40px;
+    width: 960px;
+    height: 130px;
+
+    /* white */
+
+    background: #FFFFFF;
+}
+
+.rb2{
+    top: 190px;
+}
+
+.rb3{
+    top: 340px;
+}
+
+.rank_icon{
+    /* gold_icon */
+
+
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 40px;
+    top: 40px;
+
+    background: url(./png/gold_icon.png);
+    background-size: cover;
+}
+
+.rank_name{
+    position: absolute;
+    left: 455px;
+    top: 47px;
+
+    /* subheading */
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 180% */
+
+
+    color: #000000;
+}
+
