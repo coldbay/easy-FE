@@ -107,24 +107,42 @@
         </div>
     </div>
 
-    <div class="rank_title">백준랭킹</div>
-    
+
+    <div class="rank_title">백준랭킹</div>   
     <div class="rank_full">
         
         <div class="rank_box">
-            <div class="rank_icon"></div>
+            <img class="rank_icon "src="./png/gold_icon.png" width="50px" height="50px"> <!--이미지 태그 -->
             <div class="rank_name">김ㅇㅇ</div>
         </div>
 
         <div class="rank_box rb2">
-            <div class="rank_icon"></div>
+            <img class="rank_icon "src="./png/silver_icon.png" width="50px" height="50px">
             <div class="rank_name">이ㅇㅇ</div>
         </div>
 
         <div class="rank_box rb3">
-            <div class="rank_icon"></div>
+            <img class="rank_icon "src="./png/bronze_icon.png" width="50px" height="50px">
             <div class="rank_name">박ㅇㅇ</div>
         </div>
+    </div>
+
+    <div class="photo_part">
+        <div class="photo_text">우리들의 사진</div>
+        <div class="photo_more">더보기 ></div>
+        <script>
+
+            for (i = 0; i < 4; i++) { 			
+        
+                    document.write('<div class ="photo_box pb_up photo_posi_' + i + '">up</div>');
+                    document.write('<div class ="photo_box pb_down photo_posi_' + i + '">down</div>');            
+                }
+        
+        </script>
+    </div>
+
+    <div class="calender_part">
+        
     </div>
 
 </body>

@@ -431,13 +431,9 @@ color: #2C3441;
 
 
     position: absolute;
-    width: 51px;
-    height: 51px;
     left: 40px;
     top: 40px;
 
-    background: url(./png/gold_icon.png);
-    background-size: cover;
 }
 
 .rank_name{
@@ -457,4 +453,84 @@ color: #2C3441;
 
     color: #000000;
 }
+
+/*우리들의 사진*/
+
+.photo_part{
+    position: absolute;
+
+    width: 960px;
+    height: 399px;
+    left: 240px;
+    top: 3036px;
+}
+
+.photo_text{
+    /* 우리들의 사진 */
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    /* identical to box height, or 180% */
+
+
+    color: #000000;
+}
+
+.photo_more{
+    position: absolute;
+    width: 80px;
+    height: 27px;
+    left: 906px;
+    top: 18px;
+
+    /* main */
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+
+
+    color: #000000;
+}
+
+.photo_box{
+    width: 210px;
+    height: 127px;
+
+    /* light_gray */
+
+    background: #F3F6F8;
+}
+
+.pb_up{
+    position: absolute;
+    top:105px;
+}
+
+.pb_down{
+    position: absolute;
+    top:272px;
+}
+
+.photo_posi_1{
+    position: absolute;
+    left:250px;
+}
+
+.photo_posi_2{
+    position: absolute;
+    left:500px;
+}
+
+.photo_posi_3{
+    position: absolute;
+    left:750px;
+}
+
 
