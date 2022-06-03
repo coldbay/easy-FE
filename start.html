@@ -142,7 +142,69 @@
     </div>
 
     <div class="calender_part">
-        
+        <div class="calender_title">< 2022년 12월 ></div>
+        <div class="calender_box">
+            <script>
+                week=new Array("Sun","Mon","Tue","Wed","Thr","Fri","Sat")
+                let date=27;
+                let color=true;
+                let days30=true;
+
+                for(j = 1; j <= 5; j++)
+                {
+                    for (i = 0; i < 7; i++){
+
+                        if(j==1){
+                            document.write('<div class="week_box ' +week[i]+'">'+week[i]+'</div>');
+                        }
+
+                        if(days30 && date==31){
+                            color=!color;
+                            days30=!days30;
+                            date=1;
+                        }
+
+                        if(days30==0 && date==32){
+                            color=!color;
+                            days30=!days30;
+                            date=1;
+                        }
+
+                        if(color){
+                        document.write('<div class="gray_date_box week'+j+' '+week[i]+'">'+date+'</div>');
+                        }
+
+                        else{
+                        document.write('<div class="black_date_box week'+j+' '+week[i]+'">'+date+'</div>');
+                        }
+
+                        if(date==9){
+                        document.write('<div class="check_box weekcheck'+j+' '+week[i]+'">테크톡</div>');
+                        }
+
+                        if(12<=date&&date<=14){
+                        document.write('<div class="check_box weekcheck'+j+' '+week[i]+'">특강</div>');
+                        }
+
+                        date++
+                    }
+                }
+            </script>        
+        </div>
+    </div>
+
+    <div class="floor">
+        <div class="floor_line"></div>
+
+        <div class="floorbox doit">
+            <div class="floor_title">Do-it</div>
+            <div class="floor_spec">Do-it 웹 코딩 동아리입니다.</div>
+        </div>
+
+        <div class="floorbox executives">
+            <div class="floor_title">임원진</div>
+            <div class="floor_spec">임원진이 있습니다.</div>
+        </div>
     </div>
 
 </body>

@@ -533,4 +533,270 @@ color: #2C3441;
     left:750px;
 }
 
+.calender_part{
+
+    position: absolute;
+    width: 1440px;
+    height: 702px;
+    left: 0px;
+    top: 3635px;
+
+    /* light_gray */
+
+    background: #F3F6F8;
+
+}
+
+.calender_title{
+    /* 2022년 12월 */
+
+
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 250px;
+    top: 40px;
+
+    /* subtitle */
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    /* identical to box height, or 180% */
+
+
+    /* black */
+
+    color: #2C3441;
+}
+
+.calender_box{
+    /* calander */
+
+
+    position: absolute;
+    width: 957px;
+    height: 537px;
+    left: 240px;
+    top: 125px;
+}
+
+.week_box{
+    width: 135px;
+    height: 27px;
+
+    /* main */
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+
+
+    /* black */
+
+    color: #2C3441;
+}
+
+.Sun{
+    position: absolute;
+    left:0px;
+}
+
+.Mon{
+    position: absolute;
+    left:137px;
+}
+
+.Tue{
+    position: absolute;
+    left:274px;
+}
+
+.Wed{
+    position: absolute;
+    left: 411px;
+}
+
+.Thr{
+    position: absolute;
+    left:548px;
+}
+
+.Fri{
+    position: absolute;
+    left:685px;
+}
+
+.Sat{
+    position: absolute;
+    left:822px;
+}
+
+.gray_date_box{
+
+    width: 135px;
+    height: 80px;
+       
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    
+    /* gray */
+    
+    color: #BAC0C1;
+
+    background: #FFFFFF;
+}
+.black_date_box{
+
+    width: 135px;
+    height: 80px;
+       
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    color: #2C3441;
+
+    background: #FFFFFF;
+}
+
+.check_box{
+    width: 136px;
+    height: 30px;
+       
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+    
+    color: #2C3441;
+
+    background: #8ECBF8;
+}
+
+.week1{
+    position: absolute;
+    top:47px;
+}
+
+.week2{
+    position: absolute;
+    top:129px;
+}
+
+.weekcheck2{
+    position: absolute;
+    top:159px;
+}
+
+.week3{
+    position: absolute;
+    top:211px;
+}
+
+.weekcheck3{
+    position: absolute;
+    top:241px;
+}
+
+.week4{
+    position: absolute;
+    top:293px;
+}
+
+.week5{
+    position: absolute;
+    top:375px;
+}
+
+.floor{
+    position: absolute;
+    width: 1439.5px;
+    height: 151.5px;
+    left: 0.5px;
+    top: 4537px;
+}
+
+.floor_line{
+    position: absolute;
+    width: 1439.5px;
+    height: 0px;
+    left: 0.5px;
+
+    /* light_gray */
+
+    border: 2px solid #F3F6F8;
+    }
+.floorbox{
+    position:absolute;
+    top:60.5px;
+    width: 360px;
+    height: 91px;
+}
+.floor_title{
+    position: absolute;
+    width: 279px;
+    height: 27px;
+
+
+    /* main */
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+
+
+    /* black */
+
+    color: #2C3441;
+}
+
+.floor_spec{
+    position: absolute;
+    width: 360px;
+    height: 80px;
+    top: 37px;
+
+    /* main */
+
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* identical to box height, or 180% */
+
+
+    /* black */
+
+    color: #2C3441;
+}
+
+.doit{
+    position:absolute;
+    left: 339.5px;
+}
+
+.executives{
+    position:absolute;
+    left: 739.5px;
+}
 
