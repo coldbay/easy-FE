@@ -113,7 +113,7 @@
         
         <div class="rank_box">
             <img class="rank_icon "src="./png/gold_icon.png" width="50px" height="50px"> <!--이미지 태그 -->
-            <div class="rank_name">김ㅇㅇ</div>
+            <div class="rank_name">장봉현</div>
         </div>
 
         <div class="rank_box rb2">
@@ -147,30 +147,30 @@
             <script>
                 week=new Array("Sun","Mon","Tue","Wed","Thr","Fri","Sat")
                 let date=27;
-                let color=true;
-                let days30=true;
+                let color=true; //이번 달이 아닐때 true
+                let days30=true; // 달이 30일인 여부
 
                 for(j = 1; j <= 5; j++)
                 {
                     for (i = 0; i < 7; i++){
 
-                        if(j==1){
+                        if(j==1){   // 달력 맨 윗줄 week 부분 생성
                             document.write('<div class="week_box ' +week[i]+'">'+week[i]+'</div>');
                         }
 
-                        if(days30 && date==31){
+                        if(days30 && date==31){ //달이 30일 일 때
                             color=!color;
                             days30=!days30;
                             date=1;
                         }
 
-                        if(days30==0 && date==32){
+                        if(days30==0 && date==32){ //달이 30일이 아닐 때
                             color=!color;
                             days30=!days30;
                             date=1;
                         }
 
-                        if(color){
+                        if(color){ 
                         document.write('<div class="gray_date_box week'+j+' '+week[i]+'">'+date+'</div>');
                         }
 
