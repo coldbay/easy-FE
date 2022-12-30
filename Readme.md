@@ -6,7 +6,8 @@ html과 css 처음 다뤄보기
 구현과정에서의 개념 정리
 https://natural-dracopelta-45d.notion.site/286af92f7525478c8f13cfad1353edae
 
-큰 항목의 class 기준으로 분류
+**큰 항목의 class 기준으로 분류**
+
 ------------
 ## header
 
